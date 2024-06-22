@@ -1,0 +1,44 @@
+Aula 1:
+    - Tipos primitivos e variáveis
+    - Interpolação e string.format()
+    - Métodos type() e len()
+    - Comentários
+    - Operador not
+
+Aula 2:
+    - Exception básico -> try / except / finally
+    - Métodos id() e range()
+    - Contador
+    - Laços de repetição
+    - Método dunder -> .__eq__ (Equals)
+    - Listas -> list() ou []
+        + Validações e métodos
+        + List Comprehension
+
+Aula 3:
+    - Desempacotamento
+    - Tuplas -> tuple() ou ()
+    - Criando 1ª função
+
+Aula 4:
+    - Escopo de variáveis
+    - Função com retorno e *args
+    - Higher Order Functions
+        + Funções que recebem Funções como parâmetro
+    - Closure Functions
+        + Funções que retornam funções como resultado
+
+Aula 5:
+    - Dicionários e seus métodos -> dict() ou {}
+
+Aula 6:
+    - Conjuntos -> set() ou {'valor iniciado'}
+        + Métodos e operações 
+    - Lambda
+    - Métodos isinstance(), dir(), 
+
+Aula 7:
+    - Iterator -> iter() ou __itr__()
+    - Método next()
+    - Generators
+    - Funções Generator

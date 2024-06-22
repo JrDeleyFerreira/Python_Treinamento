@@ -1,6 +1,6 @@
 # Tratamento de exceções
 try: pass
-except StopIteration: ...
+except StopIteration as error: ...
 finally: ...
     
 # ID na memória
@@ -16,7 +16,7 @@ for letra in vinculo:
 for numero in range(12, 48, 4):
     pass
 
-# Equals
+# Equals com dunder function (2 underlines)
 if vinculo.__eq__(""):
     print('String vazia!')
 
@@ -38,3 +38,7 @@ print(lista1)
 
 lista3.clear()
 print(lista3)
+
+# Lis Comprehension
+lista_range = [numero * 2 for numero in range(15)]
+print(f'\n {lista_range}')
