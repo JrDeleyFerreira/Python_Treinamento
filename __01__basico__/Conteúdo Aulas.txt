@@ -19,6 +19,7 @@ Aula 3:
     - Desempacotamento
     - Tuplas -> tuple() ou ()
     - Criando 1ª função
+    - Parâmetros mutáveis
 
 Aula 4:
     - Escopo de variáveis

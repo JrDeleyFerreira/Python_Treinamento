@@ -1,0 +1,23 @@
+{
+  "nome": "Wanderley D. Ferreira Júnior",
+  "enderecos": [
+    {
+      "rua": "Silvio Felicio",
+      "numero": 91
+    },
+    {
+      "rua": "Romana",
+      "numero": 188
+    }
+  ],
+  "idade": 34,
+  "numeros_preferidos": [
+    5,
+    11,
+    14,
+    17,
+    30
+  ],
+  "dev": true,
+  "nada": null
+}

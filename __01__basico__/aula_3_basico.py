@@ -23,3 +23,29 @@ def imprime_frase():
 
 final = imprime_frase()
 print(final)
+
+# Problemas com parâmetros mutáveis
+
+# Nunca faça assim, iniciando a variável de parâmetro
+def adiciona_pessoa(nome, lista =[]):
+    ...
+
+# Dessa forma, vc é obrigado a passar uma lista
+def lista_tipada(nome, lista: list):
+    lista.append(nome)
+    return lista
+
+# Dessa forma, 
+def adiciona_pessoa(nome, lista= None):
+    if lista is None:
+        lista = []
+    lista.append(nome)
+    return lista
+
+cliente1 = adiciona_pessoa('Wanderley')
+adiciona_pessoa('Edu', cliente1)
+print(cliente1)
+
+cliente2 = adiciona_pessoa('Fernanda')
+adiciona_pessoa('Sthéfannie', cliente2)
+print(cliente2)

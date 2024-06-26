@@ -1,0 +1,28 @@
++ Métodos estáticos da linguagem
+
++ Modularização
+
++ Arquivo __init__.py
+
++ Importação de módulos:
+    - Usando import e from / import
+
++ Namespaces
+
++ Cópia rasa de deepcopy()
+
++ Variável nonlocal
+
++ Funções geradoras -> Closure
+
++ Módulo itertools e suas funções:
+    - Combinação, Permutação, Produto e Agrupamento
+
++ Funções map() e filter()
+
++ Módulo functools e suas funções:
+    - reduce() e partial()
+
++ Manipulação de arquivos
+
++ JSON
