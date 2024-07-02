@@ -1,6 +1,9 @@
 # Tratamento de exceções
 try: pass
-except StopIteration as error: ...
+except (StopIteration, ZeroDivisionError) as error: 
+    personal_exception = 'Aconteceu algo que não faço ideia'
+    raise personal_exception from error
+    ...
 finally: ...
     
 # ID na memória

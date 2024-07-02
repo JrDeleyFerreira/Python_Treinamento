@@ -1,0 +1,41 @@
+Tratamento de Exceções:
+    
+    -> Múltiplas exceções em 1 único except:
+    -> Lançameto de erros com raise
+    -> Exceções complementares
+
+Classes:
+    
+    -> Atributos e Métodos
+    -> Encapsulamento e modificadores de acesso:
+        - protected: _
+        - private: __
+    -> Getters e Setters:
+        - @property e @nome_property.setter
+    -> self
+    -> Dicionário de propriedades de uma classe:
+        - __dict__ e vars()
+
+    -> Decorators:
+        @classmrthod, @staticmethod
+
+    -> Composição, Herança e Polimorfismo:
+        - sobrescrita e método super()
+
+    -> Mixins e Classes abstratas:
+        - Classe ABC e @abstractmethod
+
+Dunder Methods:
+
+Metaclasses:
+
+DocStrings:
+
+    -> Métodos dir() e help
+
+Enumerados:
+
+Data Classes:
+
+    -> @dataclass
+    -> NamedTuple
