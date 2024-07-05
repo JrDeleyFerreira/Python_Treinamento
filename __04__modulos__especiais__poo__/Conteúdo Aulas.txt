@@ -1,0 +1,36 @@
+Datetime:
+    -> Módulos datetime, pytz e python-dateutil
+    -> Timezone
+        - timestamp() e .fromtimestamp()
+    -> Timedelta
+    -> Relativedelta
+    -> Calendários
+        - import calendar
+    -> Internacionalização com Locale
+
+Módulo OS avançado:
+    -> Aulas de 281 a 287
+    -> Manipulação de arquivos e pastas
+    -> Módulo shutil
+
+Detalhes de JSON e .csv:
+
+Dados aleatórios:
+    -> import random
+    -> import secret
+
+String.Template:
+    -> Facilitação na interpolação de strings
+        - f'', "".join(), "".format()
+
+Variáveis de ambiente:
+    -> Módulo dotenv
+    -> Acessos com módulo "os"
+    -> Arquivo .env
+
+Compactando e descompactando arquivos:
+    -> Módulo zipfile | Aulas 304 e 305
+
+Argumentos do Python (Aulas 306 e 307):
+    -> sys.argv
+    -> Classe ArgumentParser do módulo argparse

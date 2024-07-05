@@ -1,5 +1,6 @@
 import os
 import json
+from typing import TypedDict
 
 # Manipulação de arquivos
 caminho = 'C:\\Users\\wanderley_junior'
@@ -33,7 +34,15 @@ with open('modelo.json', 'w', encoding='utf8') as arquivo_json:
         indent=2 # Faz a identação do json
     )
     
+class Pessoa(TypedDict):
+    nome: str
+    enderecos: list[dict]
+    idade: int
+    numeros_preferidos: tuple
+    dev: bool
+    nada: None
+    
 # Lendo um JSON e salvando numa variável do tipo dict()
 with open('modelo.json', 'r', encoding='utf8') as pessoa_leitura:
-    nova_pessoa = json.load(pessoa_leitura)
-    
+    nova_pessoa: Pessoa = json.load(pessoa_leitura)
+    nova_pessoa['dev']
