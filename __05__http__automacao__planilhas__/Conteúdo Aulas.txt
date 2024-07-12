@@ -1,0 +1,35 @@
+Aula 1:
+    -> Raspagem de Websites:
+        + Requisições HTTP
+        + Servidor local
+        + Módulos request e bs4
+
+Aula 2:
+    -> Automação
+        + Módulo Selenium
+        + Módulo pyautogui - automacao_tarefas da Hashtag
+    -> Subprocessos com módulo subprocess
+    -> Módulos sys
+
+Aula 3:
+    -> Jupyter Notebook
+        + insights_graficos_juptyer da Hashtag
+        + bibliotecas ipykernel - pandas
+
+Aula 4:
+    -> Thread
+        + Classes Thread e Lock
+        + Métodos start() e is_alive()
+
+Aula 5:
+    -> Manipulação de pdf com PyPDF2
+        + Aulas 327 a 330
+    -> Deque
+        + Filas FIFO - Aula 331
+
+OBS:
+    -> Ver aulas sem exemplos de código
+        + Manipulação de planilhas em excel
+            - Aulas 333 a 336
+        + Pillow
+            - Redimensionamento de imagens
