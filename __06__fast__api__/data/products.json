@@ -1,0 +1,20 @@
+{
+    "products": [
+        {
+            "name": "Notebook Accer",
+            "price": 2189.6
+        },
+        {
+            "name": "Notebook Dell Inspiron 5500",
+            "price": 3205.6
+        },
+        {
+            "name": "Notebook Samsung",
+            "price": 2668.2
+        },
+        {
+            "name": "MacBook",
+            "price": 12987.9
+        }
+    ]
+}
