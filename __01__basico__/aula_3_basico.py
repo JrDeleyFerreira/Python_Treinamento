@@ -14,8 +14,8 @@ for indice, valor in enumerate(reais):
     
 # Funções
 def imprimir(a: int, b: str, c: int): ... # Parâmetros tipados
-def imprimir_2(a, b, c): ... # Parâmetros dinâmicos
-def imprimir_3(a= 80): ... # Com valor default
+def imprimir_2(a: int, b: int, c: int): ... # Parâmetros dinâmicos
+def imprimir_3(a: int = 80): ... # Com valor default
 
 def imprime_frase():
     frase = 'Simples assim'
@@ -31,12 +31,12 @@ def adiciona_pessoa(nome, lista =[]):
     ...
 
 # Dessa forma, vc é obrigado a passar uma lista
-def lista_tipada(nome, lista: list):
+def lista_tipada(nome: str, lista: list[str]):
     lista.append(nome)
     return lista
 
 # Dessa forma, 
-def adiciona_pessoa(nome, lista= None):
+def adiciona_pessoa(nome: str, lista: list[str] | None = None) -> list[str] | None:
     if lista is None:
         lista = []
     lista.append(nome)

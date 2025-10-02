@@ -15,7 +15,7 @@ imprime_dobro()
 print(numero)
 
 # Função com retorno e tipagem de retorno
-def soma(*args):
+def soma(*args: int) -> int:
     return sum(args)
 
 _, _, *args = 1, 1, 2, 3, 4, 5 # Desempacotamento
@@ -23,7 +23,7 @@ somatorio = soma(*args)
 print(somatorio) # resultado = 14
 
 # Higher Order Functions - Funções de primeira classe
-def saudacao(msg, nome):
+def saudacao(msg: str, nome: str):
     return f'{msg}, {nome}!'
 
 def executa(funcao, *args): # *args recebe tudo após a função
@@ -33,8 +33,8 @@ print(executa(saudacao, 'Bom dia', 'Luiz'))
 print(executa(saudacao, 'Boa noite', 'Maria'))
 
 # Closure - Funções que podem retornar outras funções como resultado
-def criar_saudacao(mensagem):
-    def saudar(nome):
+def criar_saudacao(mensagem: str):
+    def saudar(nome: str) -> str:
         return f'{mensagem}, {nome}'
     return saudar
 

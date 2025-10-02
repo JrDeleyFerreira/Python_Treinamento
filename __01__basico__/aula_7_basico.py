@@ -13,7 +13,7 @@ for valor in generator:
     pass # Pode criar qualquer lógica para cada elemeto
 
 # Generator Functions
-def func_generator(n=0):
+def func_generator(n: int = 0):
     yield True if n % 2 == 0 else False
     print(f'O número digitado foi: {n}')
     yield n + 10

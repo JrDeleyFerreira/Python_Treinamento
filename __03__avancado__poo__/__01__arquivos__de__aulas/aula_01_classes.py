@@ -1,21 +1,21 @@
 # Definindo uma classe e palavra reservada self
 class PessoaFisica:
-    def __init__(self, nome, idade) -> None:
+    def __init__(self, nome: str, idade: int) -> None:
         self._nome = nome
         self._idade = idade
         
     # Estudar isso aqui, pq parece com método de extensão de C#
     @classmethod
-    def criar_sem_nome(cls, idade): # cls equivale a this
+    def criar_sem_nome(cls, idade: int): # cls equivale a this
         return cls('Anônimo', idade)
     
     # Propriedades de uma classe
     @property # Equivalente ao get
-    def nome(self):
+    def nome(self) -> str:
         return self._nome
     
     @nome.setter # Equivalente ao set
-    def nome(self, value):
+    def nome(self, value: str):
         self._nome = value
 
         

@@ -1,16 +1,20 @@
-import metaclasses
 import enum
 # from enum import Enum
+from enum import IntEnum
 
-print(dir(metaclasses))
-help(metaclasses)
+# print(dir(metaclasses))
+# help(metaclasses)
 
 # --------- ENUM ---------
 Direcoes = enum.Enum('Direcoes', ['ESQUERDA', 'DIREITA'])
 
-class DirecoesEnum(enum.Enum):
-    ESQUERDA = 1, # Onde está o 1, pode ser uma str
-    DIREITA = enum.auto() # Gera sequência automática
+class DirecoesEnum(enum.Enum): # Pode ser ReperEnum ou StrEnum
+    ESQUERDA = (1, "astolfo"), # Onde está o 1, pode ser uma str
+    DIREITA = (2, "braulio") # Gera sequência automática
+    
+class DirecoesVerticais(IntEnum):
+    CIMA = 1
+    BAIXO = enum.auto()
     
 def mover(direcao: Direcoes | DirecoesEnum):
     if not isinstance(direcao, (Direcoes, DirecoesEnum)):
