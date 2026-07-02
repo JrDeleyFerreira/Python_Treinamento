@@ -162,5 +162,6 @@ cython_debug/
 #.idea/
 
 *.vscode
+*.vs/
 *mysql_container
 *.sqlite3
